@@ -27,7 +27,7 @@ function createBoard() {
             click(square)
         })
 
-        // left click
+        // right click
         square.oncontextmenu = function (e) {
             e.preventDefault()
             addFlag(square)
@@ -93,7 +93,7 @@ function createBoard() {
 
 createBoard()
 
-// add flag with right click 
+// add flags
 function addFlag(square) {
     if (isGameOver) return
     if (!square.classList.contains('checked') && (flags < bombAmount)) {
