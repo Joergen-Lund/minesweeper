@@ -23,8 +23,8 @@ h1 {
 }
 
 .grid {
-    height: 364px;
-    width: 364px;
+    /* height: 364px;
+    width: 364px; */
     display: flex;
     flex-wrap: wrap;
     background-color: grey;
